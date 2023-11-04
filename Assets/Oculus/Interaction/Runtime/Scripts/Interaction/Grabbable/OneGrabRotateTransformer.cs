@@ -208,7 +208,9 @@ namespace Oculus.Interaction
             targetTransform.rotation = transformDeltaRotated.rotation;
         }
 
-        public void EndTransform() { }
+        public void EndTransform()
+        {
+        }
 
         #region Inject
 
